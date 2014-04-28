@@ -1,0 +1,14 @@
+#ifndef OBJECT_HPP
+#define OBJECT_HPP
+
+#include <unordered_map>
+
+class JsonObject
+{
+public:
+    JsonObject(string json_string);
+private:
+    unordered_maps<string, JsonValue> members;
+};
+
+#endif // OBJECT_HPP

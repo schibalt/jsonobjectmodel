@@ -1,0 +1,5 @@
+#include "object.hpp"
+
+JsonObject::JsonObject(string json_string)
+{
+}
